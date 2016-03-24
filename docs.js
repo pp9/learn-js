@@ -81,13 +81,3 @@ var d3 = {
     }
 }
 demoFunc();
-
-const arr = [1, 4, 5, 10];
-// const arr2 = arr.slice(0, 3);
-// const arr3 = arr.map(el => {
-//   return el + 2;
-// });
-const arr3 = arr.filter(el => {
-  if(el > 2) return true;
-});
-console.log(arr3);
